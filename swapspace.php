@@ -6,6 +6,6 @@
 
 	echo "<p>I love SwapSpace</p> ";
 
-	echo "<p>Lovely Weekend</p>";
+	
 
 ?>
