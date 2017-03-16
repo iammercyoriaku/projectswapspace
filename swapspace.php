@@ -4,4 +4,8 @@
 
 	echo "<p>This is another project</p>";
 
+	echo "<p>I love SwapSpace</p> ";
+
+	echo "<p>Lovely Weekend</p>";
+
 ?>
