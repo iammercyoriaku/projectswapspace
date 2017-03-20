@@ -13,14 +13,14 @@
 			
 			<title>Registration Page</title>
 
-			
+
 		</head>
 		
 		<body>
 
 			<h1>Student Registration</h1>
 
-			<h3>Please kindly fill the details below</h3>
+			<h3>Please kindly fill the form fields below</h3>
 
 				<?php
 
@@ -85,7 +85,7 @@
 														 '".$password."')")
 							or die(mysqli_error($db));
 
-							$success = "You have successfully registered. Login in your Username and Password";
+							$success = "You have successfully registered.";
 
 							header("Location:registration.php?success=$success");
 
