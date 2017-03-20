@@ -10,10 +10,11 @@ include("database.php");
 <html>
 <head>
 	<style >
-     body{background-color: 000000;
+     
+     body{background-color: grey;
 
-     		color: ffffff;}
-     h2{color: red;
+     		color: gold;}
+     h2{color: gold;
      	font-size: 35px;
         font-family: arial;
         border: 2px solid blue hidden;
@@ -23,12 +24,44 @@ include("database.php");
      font-size: 25px;}
 
 
+    .home{
+        text-align: left;
+
+       
+     }
+
+
+     a{color: gold;
+       
+    font-size: 20px;
+
+
+     }
+
+     a:hover{color: green;}
+
+
+
+
+
 	</style>
 <title>Form Trial</title>
 
 
 </head>
 <body>
+
+
+             <div id ="home">
+
+    
+
+             <a href="home.php">Home</a>
+
+
+
+
+             </div>
 
 	<h2>Login </h2>
 
@@ -39,7 +72,7 @@ include("database.php");
 
      			$error = [];
 
-     		if(empty($_POST['name'])){
+     		if(empty($_POST['username'])){
      			
           $error[]="Please enter a valid username";
      		

@@ -14,7 +14,12 @@ include("database.php");
 <head>
 
 	<style >
+
      body{background-color: grey;
+
+     body{background-color: grey
+     	;
+
 
       color: gold;}
 
