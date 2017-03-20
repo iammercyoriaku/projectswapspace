@@ -13,18 +13,18 @@ include("database.php");
 
 <head>
 
-	<style >
+    <style >
 
      body{background-color: grey;
 
      body{background-color: grey
-     	;
+        ;
 
 
       color: gold;}
 
      h2{color: gold;
-     	
+        
         font-size: 35px;
         
         font-family: arial;
@@ -39,10 +39,10 @@ include("database.php");
 
      div{text-align: center;
 
-     	border: 1px,solid, blue;}
+        border: 1px,solid, blue;}
 
      #diva{text-align: center;
-     	float: right;}
+        float: right;}
 
      .home{
 
@@ -59,7 +59,7 @@ include("database.php");
       a:hover{color: green;}
 
 
-	</style>
+    </style>
 <title>Welcome </title>
 </head>
 <body>
@@ -85,9 +85,9 @@ include("database.php");
 
 <div>
 
-	
+    
 
-	<a href="login2.php">Click Here Login</a>
+    <a href="login2.php">Click Here Login</a>
 
 </hr>
 
