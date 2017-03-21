@@ -20,7 +20,7 @@
 
 			<h1>Student Registration</h1>
 
-			<h3>Please kindly fill the details below</h3>
+			<h3>Please kindly fill the form fields below</h3>
 
 				<?php
 
