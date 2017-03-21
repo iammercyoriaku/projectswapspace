@@ -39,7 +39,7 @@
 
 						if(empty($_POST['email'])){
 
-							$error[] = "Please enter your Email Address";
+							$error[] = "Please enter your Email";
 						
 						} else {
 
