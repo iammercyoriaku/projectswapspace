@@ -85,7 +85,7 @@
 														 '".$password."')")
 							or die(mysqli_error($db));
 
-							$success = "You have successfully registered. Login in your Username and Password";
+							$success = "You have successfully registered.";
 
 							header("Location:registration.php?success=$success");
 
