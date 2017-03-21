@@ -95,7 +95,7 @@ include("database.php");
               if(empty($error)){
 
     
-                 $query = mysqli_query($db, "SELECT * FROM login WHERE username ='".$username."' AND password ='".$password."'") or die (mysqli_error($db));
+                 $query = mysqli_query($db, "SELECT * FROM reg WHERE username ='".$username."' AND password ='".$password."'") or die (mysqli_error($db));
 
 
                     if(mysqli_num_rows($query) == 1){
